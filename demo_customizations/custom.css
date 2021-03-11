@@ -1,0 +1,271 @@
+ .o_main_navbar {
+            background-color: #313e51;
+            border-bottom: 0px;
+          }
+          
+          .o_main_navbar .show .dropdown-toggle {
+            background-color: #313e51;
+          }
+          
+          .o_main_navbar > ul > li > a:hover,
+          .o_main_navbar > ul > li > label:hover {
+            background-color: #000B1E;
+          }
+          
+          .o_main_navbar > a:hover,
+          .o_main_navbar > a:focus,
+          .o_main_navbar > button:hover,
+          .o_main_navbar > button:focus {
+            background-color: #000B1E;
+            color: inherit;
+          }
+          
+          .o_main_navbar > a:hover,
+          .o_main_navbar > a:focus,
+          .o_main_navbar > button:hover,
+          .o_main_navbar > button:focus {
+            background-color: #000B1E;
+            color: inherit;
+          }
+          
+          .btn-primary {
+            color: #ffffff !important;
+            background-color: #f97365!important;
+            border-color: #f97365!important;
+          }
+          
+          .btn-secondary {
+            background-color: white !important;
+            border-color: white !important;
+            color: #f97365!important;
+          }
+          
+          .o_kanban_view.o_kanban_grouped .o_kanban_record,
+          .o_kanban_view.o_kanban_grouped .o_kanban_quick_create {
+            margin-top: 3px !important;
+            margin-bottom: 3px !important;
+            border: none !important;
+          }
+          
+          .o_kanban_view.o_kanban_grouped.o_kanban_small_column
+            .o_kanban_group:not(.o_column_folded) {
+            background-color: #ebecf0 !important;
+          }
+          
+          .btn-link {
+            color: #f97365!important;
+            text-decoration: none;
+          }
+          
+          .o_searchview .o_searchview_facet .o_searchview_facet_label {
+            background-color: #313e51 !important;
+          }
+          
+          .o_mail_systray_item .o_notification_counter {
+            margin-top: -0.8rem;
+            margin-right: 0;
+            margin-left: -0.6rem;
+            background: #f97365!important;
+            color: white !important;
+            vertical-align: super;
+            font-size: 0.7em;
+          }
+          
+          .badge {
+            border: 1px solid #f97365!important;
+          }
+          
+          .badge-pill {
+            border-color: white !important;
+          }
+          
+          .badge-success {
+            border-color: #00a04a !important;
+          }
+          
+          .o_controller_with_searchpanel
+            .o_search_panel
+            .o_search_panel_category
+            .o_search_panel_section_icon {
+            color: #313e51 !important;
+          }
+          
+          a {
+            color: #f97365!important;
+            text-decoration: none;
+            background-color: transparent;
+          }
+          
+          .o_web_client .o_view_grid > tfoot,
+          .o_web_client .o_view_grid .o_grid_total {
+            color: white !important;
+            background-color: #313e51 !important;
+            text-align: right;
+          }
+          
+          .custom-control-input:checked ~ .custom-control-label::before {
+            color: #e9ecef;
+            border-color: #f97365!important;
+            background-color: #f97365!important;
+          }
+          
+          .o_main_navbar > ul > li > a,
+          .o_main_navbar > ul > li > label {
+            color: white !important;
+          }
+          
+          .o_main_navbar > .o_menu_brand {
+            color: white !important;
+          }
+          
+          .o_main_navbar > a,
+          .o_main_navbar > button {
+            color: white !important;
+          }
+          
+          .dropdown-item {
+            color: #666666 !important;
+          }
+          
+          .o_timesheet_plan_sale_timesheet
+            .o_timesheet_plan_sale_timesheet_people_time
+            > .o_timesheet_plan_badge
+            > .badge
+            a {
+            color: white !important;
+          }
+          
+          .o_timesheet_plan_sale_timesheet
+            .o_timesheet_plan_sale_timesheet_people_time
+            > .o_timesheet_plan_badge
+            > .badge {
+            border: none !important;
+          }
+          
+          .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_account_reports_page
+            .oe_stat_button.oe_link_reports
+            > .o_stat_info
+            .o_stat_value,
+          .o_account_reports_page
+            .o_form_view
+            .oe_button_box
+            .oe_stat_button.oe_link_reports
+            > .o_stat_info
+            .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_radio_hide_bullet
+            label.oe_stat_button
+            > .o_stat_info
+            .o_stat_value,
+          .o_radio_hide_bullet
+            .o_form_view
+            .oe_button_box
+            label.oe_stat_button
+            > .o_stat_info
+            .o_stat_value,
+          .o_form_view .oe_button_box .btn.oe_stat_button > span .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_account_reports_page
+            .oe_stat_button.oe_link_reports
+            > span
+            .o_stat_value,
+          .o_account_reports_page
+            .o_form_view
+            .oe_button_box
+            .oe_stat_button.oe_link_reports
+            > span
+            .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_radio_hide_bullet
+            label.oe_stat_button
+            > span
+            .o_stat_value,
+          .o_radio_hide_bullet
+            .o_form_view
+            .oe_button_box
+            label.oe_stat_button
+            > span
+            .o_stat_value {
+            color: #313e51 !important;
+          }
+          
+          .o_form_view
+            .o_form_statusbar
+            > .o_statusbar_status
+            > .o_arrow_button.btn-primary.disabled:after {
+            border-left-color: #f97365!important;
+          }
+          .o_form_view
+            .o_form_statusbar
+            > .o_statusbar_status
+            > .o_arrow_button:not(:first-child):before {
+            border-left-color: #f97365!important;
+          }
+          
+          .o_home_menu_background {
+            background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/08/ibm.png),
+              url(/web_enterprise/static/src/img/home-menu-bg-overlay.svg),
+              linear-gradient(135deg, #313e51 60%, #f97365 100%) !important;
+            background-position: center center, top center;
+            background-repeat: no-repeat, repeat;
+            background-size: auto;
+          }
+          
+          .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_account_reports_page
+            .oe_stat_button.oe_link_reports
+            > .o_stat_info
+            .o_stat_value,
+          .o_account_reports_page
+            .o_form_view
+            .oe_button_box
+            .oe_stat_button.oe_link_reports
+            > .o_stat_info
+            .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_radio_hide_bullet
+            label.oe_stat_button
+            > .o_stat_info
+            .o_stat_value,
+          .o_radio_hide_bullet
+            .o_form_view
+            .oe_button_box
+            label.oe_stat_button
+            > .o_stat_info
+            .o_stat_value,
+          .o_form_view .oe_button_box .btn.oe_stat_button > span .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_account_reports_page
+            .oe_stat_button.oe_link_reports
+            > span
+            .o_stat_value,
+          .o_account_reports_page
+            .o_form_view
+            .oe_button_box
+            .oe_stat_button.oe_link_reports
+            > span
+            .o_stat_value,
+          .o_form_view
+            .oe_button_box
+            .o_radio_hide_bullet
+            label.oe_stat_button
+            > span
+            .o_stat_value,
+          .o_radio_hide_bullet
+            .o_form_view
+            .oe_button_box
+            label.oe_stat_button
+            > span
+            .o_stat_value {
+            color: #313e51 !important;
+          }
